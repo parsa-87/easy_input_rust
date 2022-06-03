@@ -1,5 +1,4 @@
-
-use std::io
+use std::io;
 
 pub fn input(str: String) -> String {
     //remove \r\n from string
