@@ -19,12 +19,3 @@ pub fn input(str: String) -> String {
     io::stdin().read_line(&mut user_input).expect("failed to readline");
     trim_newline(user_input)
 }
-
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        let result = 2 + 2;
-        assert_eq!(result, 4);
-    }
-}
