@@ -1,7 +1,7 @@
 [package]
 name = "easy_user_input"
 version = "0.1.0"
-edition = "2022"
+edition = "2021"
 authors = ["Parsa Aghasi"]
 
 description = "A library for making inout process easier to use"
