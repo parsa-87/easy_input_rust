@@ -14,7 +14,7 @@ pub fn input(str: String) -> String {
     }
     let mut user_input = String::new();
     //entery
-    println!(str);
+    println!("{}", str);
     io::stdin().read_line(&mut user_input).expect("failed to readline");
     trim_newline(user_input)
 }
