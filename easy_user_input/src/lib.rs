@@ -1,6 +1,6 @@
 use std::io;
 
-pub fn input(str: String) -> String {
+pub fn input(str: &str) -> String {
     //remove \r\n from string
     fn trim_newline(s: String) -> String{
         let mut return_str = String::from(s);
