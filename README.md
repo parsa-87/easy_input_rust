@@ -1,5 +1,5 @@
 # easy_input_rust
-###An easier way for user input process rust
+### An easier way for user input process rust
 The standard and built in way for getting input from user is so long, tough and maybe complicated
 The standard way:
 ```
